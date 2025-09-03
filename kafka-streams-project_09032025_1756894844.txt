@@ -2,20 +2,17 @@ Project Overview
 ===============
 
 Project Statistics:
-Total Files: 64
-Total Size: 1.26 MB
+Total Files: 39
+Total Size: 172.90 KB
 
 File Types:
   .kt: 27 files
-  .bin: 12 files
-  .lock: 7 files
-  .properties: 6 files
   no extension: 3 files
   .kts: 2 files
   .fbs: 2 files
-  .probe: 1 files
   .md: 1 files
   .jar: 1 files
+  .properties: 1 files
   .bat: 1 files
   .xml: 1 files
 
@@ -25,53 +22,12 @@ Folder Structure (Tree)
 =====================
 Legend: ✓ = Included in output, ✗ = Excluded from output
 
-├── .gitignore (514 B) ✓
-├── .gradle/
-│   ├── 8.14/
-│   │   ├── checksums/
-│   │   │   ├── checksums.lock (17 B) ✓
-│   │   │   ├── md5-checksums.bin (30.76 KB) ✓
-│   │   │   └── sha1-checksums.bin (80.81 KB) ✓
-│   │   ├── executionHistory/
-│   │   │   ├── executionHistory.bin (19.21 KB) ✓
-│   │   │   └── executionHistory.lock (17 B) ✓
-│   │   ├── fileChanges/
-│   │   │   └── last-build.bin (1 B) ✓
-│   │   ├── fileHashes/
-│   │   │   ├── fileHashes.bin (18.26 KB) ✓
-│   │   │   └── fileHashes.lock (17 B) ✓
-│   │   └── gc.properties (0 B) ✓
-│   ├── 8.7/
-│   │   ├── checksums/
-│   │   │   ├── checksums.lock (17 B) ✓
-│   │   │   ├── md5-checksums.bin (42.62 KB) ✓
-│   │   │   └── sha1-checksums.bin (137.28 KB) ✓
-│   │   ├── dependencies-accessors/
-│   │   │   └── gc.properties (0 B) ✓
-│   │   ├── executionHistory/
-│   │   │   ├── executionHistory.bin (663.80 KB) ✓
-│   │   │   └── executionHistory.lock (17 B) ✓
-│   │   ├── expanded/
-│   │   ├── fileChanges/
-│   │   │   └── last-build.bin (1 B) ✓
-│   │   ├── fileHashes/
-│   │   │   ├── fileHashes.bin (84.63 KB) ✓
-│   │   │   ├── fileHashes.lock (17 B) ✓
-│   │   │   └── resourceHashesCache.bin (23.21 KB) ✓
-│   │   ├── gc.properties (0 B) ✓
-│   │   └── vcsMetadata/
-│   ├── buildOutputCleanup/
-│   │   ├── buildOutputCleanup.lock (17 B) ✓
-│   │   ├── cache.properties (50 B) ✓
-│   │   └── outputFiles.bin (19.80 KB) ✓
-│   ├── file-system.probe (8 B) ✓
-│   └── vcs-1/
-│       └── gc.properties (0 B) ✓
+├── .gitignore (521 B) ✓
 ├── .kotlin/
 │   └── sessions/
 ├── ARCHITECTURE.md (6.55 KB) ✓
 ├── Dockerfile (906 B) ✓
-├── build.gradle.kts (4.58 KB) ✓
+├── build.gradle.kts (5.47 KB) ✓
 ├── gradle/
 │   └── wrapper/
 │       ├── gradle-wrapper.jar (42.43 KB) ✓
@@ -98,7 +54,7 @@ Legend: ✓ = Included in output, ✗ = Excluded from output
     │   │           │   │   ├── FilterFieldExtractor.kt (950 B) ✓
     │   │           │   │   ├── OrderSpec.kt (1.18 KB) ✓
     │   │           │   │   ├── PageOps.kt (3.07 KB) ✓
-    │   │           │   │   ├── QueryEngine.kt (9.54 KB) ✓
+    │   │           │   │   ├── QueryEngine.kt (7.73 KB) ✓
     │   │           │   │   └── SqlComparators.kt (6.07 KB) ✓
     │   │           │   └── engine/
     │   │           │       ├── App.kt (1.66 KB) ✓
@@ -116,7 +72,7 @@ Legend: ✓ = Included in output, ✗ = Excluded from output
     │   │           └── tools/
     │   │               └── SendQctl.kt (2.62 KB) ✓
     │   └── resources/
-    │       └── logback.xml (274 B) ✓
+    │       └── logback.xml (995 B) ✓
     └── test/
         └── kotlin/
             └── org/
@@ -125,12 +81,12 @@ Legend: ✓ = Included in output, ✗ = Excluded from output
                         └── Evaluator/
                             ├── DiffOpsTest.kt (2.47 KB) ✓
                             ├── PageOpsTest.kt (2.47 KB) ✓
-                            └── QueryEngineSmokeTest.kt (3.28 KB) ✓
+                            └── QueryEngineSmokeTest.kt (3.30 KB) ✓
 
 ==============
 
 File Name: .gitignore
-Size: 514 B
+Size: 521 B
 Code:
 target/
 !.mvn/wrapper/maven-wrapper.jar
@@ -145,7 +101,7 @@ target/
 *.iws
 *.iml
 *.ipr
-
+.gradle
 ### Eclipse ###
 .apt_generated
 .classpath
@@ -174,38 +130,6 @@ build/
 .mvm
 .idea/
 .mvn
--------- [ Separator ] ------
-
-File Name: .gradle/8.14/gc.properties
-Size: 0 B
-Code:
-
--------- [ Separator ] ------
-
-File Name: .gradle/8.7/dependencies-accessors/gc.properties
-Size: 0 B
-Code:
-
--------- [ Separator ] ------
-
-File Name: .gradle/8.7/gc.properties
-Size: 0 B
-Code:
-
--------- [ Separator ] ------
-
-File Name: .gradle/buildOutputCleanup/cache.properties
-Size: 50 B
-Code:
-#Wed Sep 03 12:07:56 CEST 2025
-gradle.version=8.7
-
--------- [ Separator ] ------
-
-File Name: .gradle/vcs-1/gc.properties
-Size: 0 B
-Code:
-
 -------- [ Separator ] ------
 
 File Name: ARCHITECTURE.md
@@ -368,7 +292,7 @@ ENTRYPOINT ["java","-jar","/opt/app/app.jar"]
 -------- [ Separator ] ------
 
 File Name: build.gradle.kts
-Size: 4.58 KB
+Size: 5.47 KB
 Code:
 plugins {
     kotlin("jvm") version "2.2.0"
@@ -441,7 +365,33 @@ application {
 }
 
 tasks.test {
+    // Use JUnit 5
     useJUnitPlatform()
+
+    // Show detailed logs in the console during test execution
+    testLogging {
+        // include std out/err in the console
+        events("passed", "skipped", "failed", "standardOut", "standardError")
+        showStandardStreams = true
+        exceptionFormat = org.gradle.api.tasks.testing.logging.TestExceptionFormat.FULL
+    }
+
+    // Ensure HTML & XML reports are generated and print their paths
+    reports {
+        junitXml.required.set(true)
+        html.required.set(true)
+    }
+
+    doFirst {
+        println("➡️  Running tests…")
+    }
+    doLast {
+        val htmlDir = reports.html.outputLocation.get().asFile
+        val xmlDir = reports.junitXml.outputLocation.get().asFile
+        println("✅ Tests finished.")
+        println("📄 HTML report: file://${htmlDir.absolutePath}/index.html")
+        println("🧾 JUnit XML dir: file://${xmlDir.absolutePath}")
+    }
 }
 
 /**
@@ -1880,7 +1830,7 @@ object PageOps {
 -------- [ Separator ] ------
 
 File Name: src/main/kotlin/org/cladbe/cdc/Evaluator/QueryEngine.kt
-Size: 9.54 KB
+Size: 7.73 KB
 Code:
 package org.cladbe.cdc.engine
 
@@ -1917,7 +1867,7 @@ class QueryEngine<PK>(
 
     fun upsert(row: Map<String, Any?>): UpsertResult<PK> {
         val pk = getPk(row)
-        val prev = rowProvider(pk)
+        val prev = rowProvider(pk) // may already be the updated row if cache is warmed
         val inPageBefore = page.contains(pk)
 
         val matchesAfter = spec.whereMatches(row)
@@ -1927,16 +1877,12 @@ class QueryEngine<PK>(
         val orderChanged = changed.any { it in orderFields }
         val filterChanged = changed.any { it in spec.filterFields }
 
-        // ——— CASE A: row does not match WHERE anymore ———
+        // A) No longer matches filter — remove if present
         if (!matchesAfter) {
-            if (!inPageBefore) {
-                log.debug("[upsert] pk={} no-op (didn't match and wasn't in page)", pk)
-                return UpsertResult(emptyList(), false, false)
-            }
+            if (!inPageBefore) return UpsertResult(emptyList(), false, false)
             val idx = page.indexOf(pk)
             if (idx >= 0) {
                 page.removeAt(idx)
-                log.debug("[upsert] pk={} removed at idx={} (no longer matches)", pk, idx)
                 return UpsertResult(
                     changes = listOf(OutboxCodec.WireDiff("removed", pk, pos = idx)),
                     needsBackfill = true,
@@ -1946,43 +1892,21 @@ class QueryEngine<PK>(
             return UpsertResult(emptyList(), false, false)
         }
 
-        // ——— CASE B: brand-new PK (not in page before) ———
+        // B) New PK — insert (and possibly evict tail)
         if (!inPageBefore) {
-            // Space available → insert where it belongs
             if (page.size < spec.k) {
                 val pos = findInsertPosition(row)
                 page.add(pos, pk)
-                log.debug("[upsert] pk={} inserted at pos={} (page had space)", pk, pos)
                 return UpsertResult(listOf(OutboxCodec.WireDiff("added", pk, pos = pos)), false, false)
             }
-
-            // Page full → compare vs tail; if tail row is missing, DO NOT silently drop.
             val tailIndex = page.size - 1
             val tailPk = page.last()
             val tailRow = rowProvider(tailPk)
 
-            if (tailRow == null) {
-                // Permanent fix: treat unknown tail as lowest rank, evict it.
+            return if (tailRow == null || compareRows(row, tailRow) < 0) {
                 page.removeAt(tailIndex)
                 val pos = findInsertPosition(row)
                 page.add(pos, pk)
-                log.debug("[upsert] pk={} inserted at pos={}, evicted tail pk={} (tail row was missing)", pk, pos, tailPk)
-                return UpsertResult(
-                    changes = listOf(
-                        OutboxCodec.WireDiff("removed", tailPk, pos = tailIndex),
-                        OutboxCodec.WireDiff("added", pk, pos = pos)
-                    ),
-                    needsBackfill = false,
-                    probeTail = false
-                )
-            }
-
-            return if (compareRows(row, tailRow) < 0) {
-                // Better than tail → evict tail and insert
-                page.removeAt(tailIndex)
-                val pos = findInsertPosition(row)
-                page.add(pos, pk)
-                log.debug("[upsert] pk={} inserted at pos={}, evicted tail pk={}", pk, pos, tailPk)
                 UpsertResult(
                     listOf(
                         OutboxCodec.WireDiff("removed", tailPk, pos = tailIndex),
@@ -1991,19 +1915,17 @@ class QueryEngine<PK>(
                     false, false
                 )
             } else {
-                log.debug("[upsert] pk={} ignored (worse than/equal to current tail)", pk)
                 UpsertResult(emptyList(), false, false)
             }
         }
 
-        // ——— CASE C: we *thought* it wasn't in page, but oldIdx < 0 (page mutated) ———
+        // C) Existing PK — compute desired position regardless of diffs
         val oldIdx = page.indexOf(pk)
         if (oldIdx < 0) {
-            // Reapply the same logic as CASE B to be deterministic.
+            // defensive: treat like insert
             if (page.size < spec.k) {
                 val pos = findInsertPosition(row)
                 page.add(pos, pk)
-                log.debug("[upsert] pk={} inserted at pos={} (late-detected)", pk, pos)
                 return UpsertResult(listOf(OutboxCodec.WireDiff("added", pk, pos = pos)), false, false)
             } else {
                 val tailIndex = page.size - 1
@@ -2013,7 +1935,6 @@ class QueryEngine<PK>(
                     page.removeAt(tailIndex)
                     val pos = findInsertPosition(row)
                     page.add(pos, pk)
-                    log.debug("[upsert] pk={} inserted at pos={}, evicted tail pk={} (late-detected)", pk, pos, tailPk)
                     UpsertResult(
                         listOf(
                             OutboxCodec.WireDiff("removed", tailPk, pos = tailIndex),
@@ -2022,31 +1943,29 @@ class QueryEngine<PK>(
                         false, false
                     )
                 } else {
-                    log.debug("[upsert] pk={} ignored (late-detected, worse than tail)", pk)
                     UpsertResult(emptyList(), false, false)
                 }
             }
         }
 
-        // ——— CASE D: existing PK ———
-        if (orderChanged) {
-            page.removeAt(oldIdx)
-            val newPos = findInsertPosition(row)
-            page.add(newPos, pk)
-            log.debug("[upsert] pk={} moved from {} to {} (order fields changed)", pk, oldIdx, newPos)
-            val diff = OutboxCodec.WireDiff("modified", pk, pos = newPos, from = oldIdx)
-            val probe = (filterChanged || orderChanged) && page.size >= spec.k
-            return UpsertResult(listOf(diff), needsBackfill = false, probeTail = probe)
+        // Temporarily remove pk to find where it should sort now
+        page.removeAt(oldIdx)
+        val desiredPos = findInsertPosition(row)
+        val mustMove = desiredPos != oldIdx
+
+        return if (mustMove) {
+            page.add(desiredPos, pk)
+            val diff = OutboxCodec.WireDiff("modified", pk, pos = desiredPos, from = oldIdx)
+            UpsertResult(listOf(diff), needsBackfill = false, probeTail = page.size >= spec.k)
+        } else {
+            // put it back where it was
+            page.add(oldIdx, pk)
+            val diffs =
+                if (changed.isNotEmpty()) {
+                    listOf(OutboxCodec.WireDiff("modified", pk, pos = oldIdx, from = oldIdx))
+                } else emptyList()
+            UpsertResult(diffs, needsBackfill = false, probeTail = (filterChanged || orderChanged) && page.size >= spec.k)
         }
-
-        val diffs =
-            if (changed.isNotEmpty()) {
-                log.debug("[upsert] pk={} modified in-place at {}", pk, oldIdx)
-                listOf(OutboxCodec.WireDiff("modified", pk, pos = oldIdx, from = oldIdx))
-            } else emptyList()
-
-        val probe = (filterChanged || orderChanged) && page.size >= spec.k
-        return UpsertResult(diffs, needsBackfill = false, probeTail = probe)
     }
 
     fun currentCursor(): Map<String, Any?>? {
@@ -3699,17 +3618,35 @@ object Tools {
 -------- [ Separator ] ------
 
 File Name: src/main/resources/logback.xml
-Size: 274 B
+Size: 995 B
 Code:
-<configuration>
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration scan="true" scanPeriod="10 seconds">
+
+    <!-- Console appender -->
     <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
-        <encoder><pattern>%d %-5level %logger{36} - %msg%n</pattern></encoder>
+        <encoder>
+            <!-- time level thread logger - message -->
+            <pattern>%d{HH:mm:ss.SSS} %-5level [%thread] %logger{36} - %msg%n</pattern>
+        </encoder>
     </appender>
+
+    <!-- Be noisy for our code under test -->
+    <logger name="org.cladbe.cdc.engine" level="DEBUG" additivity="false">
+        <appender-ref ref="STDOUT"/>
+    </logger>
+    <logger name="org.cladbe.cdc.Evaluator" level="DEBUG" additivity="false">
+        <appender-ref ref="STDOUT"/>
+    </logger>
+
+    <!-- If you want to see Kafka Streams test utils chatter, bump this up: -->
+    <!-- <logger name="org.apache.kafka" level="DEBUG"/> -->
+
+    <!-- Root logger (keep at INFO so we don’t drown in noise) -->
     <root level="INFO">
         <appender-ref ref="STDOUT"/>
     </root>
 </configuration>
-
 -------- [ Separator ] ------
 
 File Name: src/test/kotlin/org/cladbe/cdc/Evaluator/DiffOpsTest.kt
@@ -3869,7 +3806,7 @@ class PageOpsTest {
 -------- [ Separator ] ------
 
 File Name: src/test/kotlin/org/cladbe/cdc/Evaluator/QueryEngineSmokeTest.kt
-Size: 3.28 KB
+Size: 3.30 KB
 Code:
 // src/test/kotlin/org/cladbe/cdc/Evaluator/QueryEngineContractTest.kt
 package org.cladbe.cdc.Evaluator
@@ -3934,6 +3871,7 @@ class QueryEngineContractTest {
         // ---- Promote r1 by bumping its lsn above r2
         val r1Promoted = r1 + ("__lsn" to 3000L)
         val res3 = upsertRow(engine, store, r1Promoted)
+        println(res3)
         assertEquals(1, res3.changes.size, "promotion should emit 1 modified")
         // (Optional) you can assert the “from/to” positions if your WireDiff captures them
 
