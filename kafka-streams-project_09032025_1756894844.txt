@@ -3,7 +3,7 @@ Project Overview
 
 Project Statistics:
 Total Files: 39
-Total Size: 172.90 KB
+Total Size: 173.61 KB
 
 File Types:
   .kt: 27 files
@@ -26,7 +26,7 @@ Legend: ✓ = Included in output, ✗ = Excluded from output
 ├── .kotlin/
 │   └── sessions/
 ├── ARCHITECTURE.md (6.55 KB) ✓
-├── Dockerfile (906 B) ✓
+├── Dockerfile (1.59 KB) ✓
 ├── build.gradle.kts (5.47 KB) ✓
 ├── gradle/
 │   └── wrapper/
@@ -35,53 +35,55 @@ Legend: ✓ = Included in output, ✗ = Excluded from output
 ├── gradlew (8.49 KB) ✓
 ├── gradlew.bat (2.85 KB) ✓
 ├── settings.gradle.kts (42 B) ✓
-└── src/
-    ├── main/
-    │   ├── flatbuffers/
-    │   │   ├── sql_rpc.fbs (2.73 KB) ✓
-    │   │   └── sql_schema.fbs (6.28 KB) ✓
-    │   ├── kotlin/
-    │   │   └── org/
-    │   │       └── cladbe/
-    │   │           ├── cdc/
-    │   │           │   ├── Evaluator/
-    │   │           │   │   ├── DerivedSpec.kt (1.00 KB) ✓
-    │   │           │   │   ├── DiffOps.kt (3.12 KB) ✓
-    │   │           │   │   ├── FbMappings.kt (3.00 KB) ✓
-    │   │           │   │   ├── FbPredicate.kt (7.43 KB) ✓
-    │   │           │   │   ├── FbQueryAdapter.kt (213 B) ✓
-    │   │           │   │   ├── FbQueryAdapterImpl.kt (1.04 KB) ✓
-    │   │           │   │   ├── FilterFieldExtractor.kt (950 B) ✓
-    │   │           │   │   ├── OrderSpec.kt (1.18 KB) ✓
-    │   │           │   │   ├── PageOps.kt (3.07 KB) ✓
-    │   │           │   │   ├── QueryEngine.kt (7.73 KB) ✓
-    │   │           │   │   └── SqlComparators.kt (6.07 KB) ✓
-    │   │           │   └── engine/
-    │   │           │       ├── App.kt (1.66 KB) ✓
-    │   │           │       ├── BackfillClient.kt (4.34 KB) ✓
-    │   │           │       ├── BackfillReplyProcessor.kt (2.28 KB) ✓
-    │   │           │       ├── CdcProcessor.kt (14.39 KB) ✓
-    │   │           │       ├── FbRequests.kt (13.31 KB) ✓
-    │   │           │       ├── FbResponses.kt (636 B) ✓
-    │   │           │       ├── KeyDbWriter.kt (3.35 KB) ✓
-    │   │           │       ├── PkUtils.kt (207 B) ✓
-    │   │           │       ├── QueryControlProcessor.kt (1.30 KB) ✓
-    │   │           │       ├── SeedProcessor.kt (2.39 KB) ✓
-    │   │           │       ├── TablePkRegistry.kt (926 B) ✓
-    │   │           │       └── Topology.kt (5.05 KB) ✓
-    │   │           └── tools/
-    │   │               └── SendQctl.kt (2.62 KB) ✓
-    │   └── resources/
-    │       └── logback.xml (995 B) ✓
-    └── test/
-        └── kotlin/
-            └── org/
-                └── cladbe/
-                    └── cdc/
-                        └── Evaluator/
-                            ├── DiffOpsTest.kt (2.47 KB) ✓
-                            ├── PageOpsTest.kt (2.47 KB) ✓
-                            └── QueryEngineSmokeTest.kt (3.30 KB) ✓
+├── src/
+│   ├── main/
+│   │   ├── flatbuffers/
+│   │   │   ├── sql_rpc.fbs (2.73 KB) ✓
+│   │   │   └── sql_schema.fbs (6.28 KB) ✓
+│   │   ├── kotlin/
+│   │   │   └── org/
+│   │   │       └── cladbe/
+│   │   │           ├── cdc/
+│   │   │           │   ├── Evaluator/
+│   │   │           │   │   ├── DerivedSpec.kt (1.00 KB) ✓
+│   │   │           │   │   ├── DiffOps.kt (3.12 KB) ✓
+│   │   │           │   │   ├── FbMappings.kt (3.00 KB) ✓
+│   │   │           │   │   ├── FbPredicate.kt (7.43 KB) ✓
+│   │   │           │   │   ├── FbQueryAdapter.kt (213 B) ✓
+│   │   │           │   │   ├── FbQueryAdapterImpl.kt (1.04 KB) ✓
+│   │   │           │   │   ├── FilterFieldExtractor.kt (950 B) ✓
+│   │   │           │   │   ├── OrderSpec.kt (1.18 KB) ✓
+│   │   │           │   │   ├── PageOps.kt (3.07 KB) ✓
+│   │   │           │   │   ├── QueryEngine.kt (7.73 KB) ✓
+│   │   │           │   │   └── SqlComparators.kt (6.07 KB) ✓
+│   │   │           │   ├── engine/
+│   │   │           │   │   ├── App.kt (1.66 KB) ✓
+│   │   │           │   │   ├── BackfillClient.kt (4.34 KB) ✓
+│   │   │           │   │   ├── BackfillReplyProcessor.kt (2.28 KB) ✓
+│   │   │           │   │   ├── CdcProcessor.kt (14.39 KB) ✓
+│   │   │           │   │   ├── FbRequests.kt (13.31 KB) ✓
+│   │   │           │   │   ├── FbResponses.kt (636 B) ✓
+│   │   │           │   │   ├── KeyDbWriter.kt (3.35 KB) ✓
+│   │   │           │   │   ├── PkUtils.kt (207 B) ✓
+│   │   │           │   │   ├── QueryControlProcessor.kt (1.30 KB) ✓
+│   │   │           │   │   ├── SeedProcessor.kt (2.39 KB) ✓
+│   │   │           │   │   ├── TablePkRegistry.kt (926 B) ✓
+│   │   │           │   │   └── Topology.kt (5.05 KB) ✓
+│   │   │           │   └── join/
+│   │   │           └── tools/
+│   │   │               └── SendQctl.kt (2.62 KB) ✓
+│   │   └── resources/
+│   │       └── logback.xml (995 B) ✓
+│   └── test/
+│       └── kotlin/
+│           └── org/
+│               └── cladbe/
+│                   └── cdc/
+│                       └── Evaluator/
+│                           ├── DiffOpsTest.kt (2.47 KB) ✓
+│                           ├── PageOpsTest.kt (2.47 KB) ✓
+│                           └── QueryEngineSmokeTest.kt (3.30 KB) ✓
+└── target/
 
 ==============
 
@@ -262,32 +264,51 @@ For dev, let auto-creation happen. For prod, pre-create with your desired RF/ret
 -------- [ Separator ] ------
 
 File Name: Dockerfile
-Size: 906 B
+Size: 1.59 KB
 Code:
-# ---- build stage ----
-FROM maven:3.9.6-eclipse-temurin-17 AS build
+# ---------- build stage ----------
+FROM gradle:8.7-jdk17 AS build
 WORKDIR /app
 
-# flatc install (keep your working snippet)
+# Install flatc (for FlatBuffers codegen used by the Gradle task)
 RUN apt-get update && apt-get install -y wget unzip && rm -rf /var/lib/apt/lists/*
-RUN wget  https://github.com/google/flatbuffers/releases/download/v25.2.10/Linux.flatc.binary.g++-13.zip \
- && unzip  Linux.flatc.binary.g++-13.zip -d /usr/local/bin \
- && chmod +x /usr/local/bin/flatc && rm Linux.flatc.binary.g++-13.zip
+RUN wget -q https://github.com/google/flatbuffers/releases/download/v25.2.10/Linux.flatc.binary.g++-13.zip \
+ && unzip -q Linux.flatc.binary.g++-13.zip -d /usr/local/bin \
+ && chmod +x /usr/local/bin/flatc \
+ && rm -f Linux.flatc.binary.g++-13.zip
 
-# Cache layer: only pom.xml → resolves deps once and caches them
-COPY pom.xml .
-RUN mvn -B  -DskipTests dependency:resolve dependency:resolve-plugins
+# Cache deps: copy only Gradle descriptors + wrapper first
+COPY build.gradle.kts settings.gradle.kts gradle.properties* ./
+COPY gradle gradle
+COPY gradlew ./
 
-# Now bring sources and compile
+# Pre-fetch dependencies (faster rebuilds)
+RUN ./gradlew --no-daemon --stacktrace dependencies > /dev/null || true
+
+# Bring sources and build the shadow jar
 COPY src ./src
-RUN mvn -B  -DskipTests -T 1C package
+RUN ./gradlew --no-daemon --stacktrace clean shadowJar
 
-# ---- runtime stage ----
-FROM eclipse-temurin:17-jre AS runtime
+# ---------- runtime stage ----------
+FROM eclipse-temurin:17-jre
 WORKDIR /opt/app
 RUN useradd -ms /bin/bash appuser
-COPY --from=build /app/target/*.jar app.jar
+
+# Copy uber-jar built by Shadow (archive name matches build.gradle.kts config)
+COPY --from=build /app/build/libs/kafka-streams-project-all.jar app.jar
 USER appuser
+
+# Typical envs (override via docker-compose)
+ENV KAFKA_BROKERS=kafka:9092 \
+    STREAMS_APP_ID=cladbe-kstreams-shared \
+    STREAMS_STATE_DIR=/var/lib/kstreams/state \
+    CDC_TOPIC_PATTERN="^server\\.cdc\\..*$" \
+    QUERY_CONTROL_TOPIC=server.query.control \
+    WS_OUTBOX_TOPIC=server.page.diffs \
+    BACKFILL_ROWS_TOPIC=server.backfill.rows \
+    SQL_RPC_REQUEST_TOPIC=sql.rpc.requests \
+    SQL_RPC_RESPONSE_TOPIC=sql.rpc.responses
+
 ENTRYPOINT ["java","-jar","/opt/app/app.jar"]
 -------- [ Separator ] ------
 
@@ -306,7 +327,7 @@ repositories {
 }
 
 val flatbuffersVersion = "25.2.10"
-val kafkaStreamsVersion = "4.0.0"
+val kafkaStreamsVersion = "3.7.1"
 val confluentVersion = "7.7.1"
 val slf4jVersion = "2.0.13"
 val logbackVersion = "1.5.13"
